@@ -1,0 +1,8 @@
+{
+  "presets": ["es2015"],
+  "plugins": [
+    // Fixes new ES6 module behaviour since Babel 6 causing a default export to
+    // not be available in "module.exports" but in "module.exports.default".
+    "add-module-exports"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "name": "react-link",
+  "version": "1.0.0",
+  "description": "Two-way binding utility for React (ReactLink without mixins)",
+  "main": "lib/linkedState.js",
+  "scripts": {
+    "prepublish": "babel src --out-dir lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:mdarse/react-link.git"
+  },
+  "keywords": [
+    "react",
+    "binding",
+    "ReactLink",
+    "linkedState",
+    "linkState",
+    "valueLink",
+    "link"
+  ],
+  "author": "Mathieu Darse <hello@mathieudarse.fr> (http://mathieudarse.fr/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mdarse/react-link/issues"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.0.0",
+    "babel-plugin-add-module-exports": "^0.1.2",
+    "babel-preset-es2015": "^6.0.0"
+  }
+}
